@@ -2,7 +2,7 @@ name: Deploy to Github Pages
 
 on:
   push:
-    branches: [master] # Adjusted from 'master' to 'main'
+    branches: [main] # Adjusted from 'master' to 'main'
 
 permissions:
   contents: read
