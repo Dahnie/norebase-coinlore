@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "hmepage": "https://norebase-coinlore.github.io/",
+  "hmepage": "https://dahnie.github.io/norebase-coinlore/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
