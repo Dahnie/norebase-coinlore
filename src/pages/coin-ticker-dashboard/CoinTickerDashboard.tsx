@@ -36,7 +36,10 @@ function CoinTickerDashboard() {
     const page = searchParams.get("page");
     return page ? parseInt(page) : 1;
   });
-  const [rowsPerPage] = useState(10);
+  const [rowsPerPage] = useState(() => {
+    const limit = searchParams.get("limit");
+    return limit ? parseInt(limit) : 10;
+  });
 
   //   Functions
 
