@@ -19,7 +19,7 @@ function NotFound() {
         <button
           aria-label="Go Back Button"
           className={styles.go_back_button_wrapper}
-          onClick={() => navigate("/")}
+          onClick={() => navigate("/tickers")}
         >
           Go Back
         </button>
