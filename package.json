@@ -1,9 +1,9 @@
 {
   "name": "norebase-coinlore",
+  "homepage": "https://dahnie.github.io/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://dahnie.github.io/norebase-coinlore/",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
