@@ -2,7 +2,7 @@ name: Deploy to Github Pages
 
 on:
   push:
-    branches: [main] # Adjusted from 'master' to 'main'
+    branches: [master]
 
 permissions:
   contents: read
@@ -27,9 +27,9 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           name: "github-pages"
-          path: build
+          path: dist
       - name: Deploy to Github Pages
         uses: actions/deploy-pages@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }} # Fixed 'roken' to 'token'
-          artifact_name: "github-pages" # Fixed 'artifact_nam' to 'artifact_name'
+          token: ${{ secrets.GITHUB_TOKEN }}
+          artifact_name: "github-pages"
