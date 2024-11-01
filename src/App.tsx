@@ -10,7 +10,7 @@ function App() {
   return (
     <ToastHandlerContextProvider>
       <Provider store={store}>
-        <Router basename={import.meta.env.PUBLIC_URL}>
+        <Router>
           <AppRoutes />
         </Router>
       </Provider>
