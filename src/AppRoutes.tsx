@@ -8,6 +8,10 @@ function AppRoutes() {
     <Routes>
       {/* Coin Lore Table Page */}
       <Route path="/" element={<Layout children={<CoinTickerDashboard />} />} />
+      <Route
+        path="/tickers"
+        element={<Layout children={<CoinTickerDashboard />} />}
+      />
       <Route path="*" element={<NotFound />} />
     </Routes>
   );

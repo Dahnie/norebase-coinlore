@@ -1,6 +1,6 @@
 {
   "name": "norebase-coinlore",
-  "homepage": "https://dahnie.github.io/norebase-coinlore/",
+  "homepage": "https://dahnie.github.io/norebase-coinlore/tickers",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,8 +8,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview --port 8080",
-    "deploy": "gh-pages -d build"
+    "preview": "vite preview --port 8080"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.7",
