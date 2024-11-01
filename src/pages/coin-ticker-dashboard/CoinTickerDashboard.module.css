@@ -1,0 +1,15 @@
+.coinlore_dashboard_main {
+  padding: 6rem 1.6rem;
+}
+
+.coin_ticker_table_section {
+  max-width: 80rem;
+  margin: 4rem auto 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 675px) {
+  .coin_ticker_table_section {
+    margin: 0 auto;
+  }
+}
