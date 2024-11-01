@@ -10,7 +10,7 @@ function App() {
   return (
     <ToastHandlerContextProvider>
       <Provider store={store}>
-        <Router>
+        <Router basename={"/norebase-coinlore"}>
           <AppRoutes />
         </Router>
       </Provider>
